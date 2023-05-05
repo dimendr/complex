@@ -59,6 +59,8 @@ public:
         return a;
     }
 
+
+
     Complex operator /(const Complex& obj) {
         Complex a(this->re, this->im);
         this->re /= obj.re;
